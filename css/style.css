@@ -1,0 +1,14 @@
+html{
+  background: linear-gradient(to bottom, #f7f7f7, #312c2c);
+}
+
+nav {
+  display: flex;
+}
+
+.container{
+  display: flex;
+}
+#iconBrand{
+  max-width: 10%;
+}
