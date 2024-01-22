@@ -1,11 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,200&display=swap');
 body{
-  background: linear-gradient(to top, #fcf8f8, #3f3f3f);
+  background: linear-gradient(to top, #989797, #3f3f3f);
   width: 100%;
   height: 100vh;
+     font-family: 'Poppins', sans-serif;
 }
+
 nav {
   display: flex;
+  width: 95%;
 }
 
 .container{
@@ -32,12 +35,34 @@ nav {
 
 .main-content h1,
 .main-content h2,
-.main-content p {margin-top: 0;
+.main-content p,
+.main-content h4 {margin-top: 0;
   margin-bottom: 0;
 }
+.main-content h1,
+.main-content h2 {
+  color: #ff4d00;
+}
+
+.main-content h4{
+  margin: 1% 0% 1% 0;
+  color: aliceblue;
+}
+p{
+  color: aliceblue;
+}
+.image{
+  display: flex;
+  width: 50%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
 .content {
   display: flex;
   justify-content: space-around;
+  margin: 2% 0 2% 0;
 }
 
 .main-content{
@@ -46,7 +71,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .main-content p{
@@ -54,7 +79,7 @@ nav {
 }
 
 #iconBrand{
-  max-width: 20%;
+  width: 50%;
   max-height:200%;
 }
 
@@ -68,7 +93,7 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 @media screen and (max-width: 990px) {
@@ -83,7 +108,9 @@ nav {
   width: 50%;
   height: auto;
   align-items: center;
+  justify-content: center;
 }
+
 .image img{
   width: 100%;
   align-items: center;
