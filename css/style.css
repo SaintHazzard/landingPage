@@ -19,13 +19,22 @@ nav {
 .container{
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: space-between;
+}
+.links{
+  margin-left: 10%;
+}
+.search{
+  margin-right: 10%;
 }
 .order button {
   background: linear-gradient(to right, #ff4d00b2 40%, #ff4d00);
   border: none;
   border-radius: 25px;
   color: white;
+  font-weight: bold;
 }
 
 /* .boton{
@@ -49,7 +58,9 @@ nav {
 .main-content h2 {
   color: #ff4d00;
 }
-
+h3{
+  color: #8f8f8f;
+}
 .main-content h4{
   margin: 1% 0% 1% 0;
   color: aliceblue;
@@ -89,12 +100,14 @@ p{
   text-align: justify;
 }
 .logo{
-  position: relative;
-  left: 0;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 10%
 }
 #iconBrand{
-  width: 50%;
-  max-height:200%;
+  width: 100%;
+  height: auto;
 }
 
 .links a{
